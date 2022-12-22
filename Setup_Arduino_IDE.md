@@ -14,18 +14,49 @@ Arduino IDE can be downloaded from https://www.arduino.cc/en/software
 + Restart Arduino IDE.  
   
 1.2 To Configure the Arduino IDE, follow these steps:  
-+ Connect the Matrix310 to your computer's USB port.  
++ Connect the Matrix310's Micro USB/serial console to your computer's USB port.  
 + Select the Board from Tools > Board > esp32 > ESP32 Dev Module
 ![Alt text](./img/Select_Board.jpg)  
 
 + Select the Port from Tools > Port > COM Port
 ![Alt text](./img/Select_Port.jpg)  
 
-+ Change the Upload Speed to 115200 from Tools > Upload Speed > 115200
++ Change the Upload Speed to 921600 from Tools > Upload Speed > 921600(若error就降速)
 ![Alt text](./img/Select_Upload_Speed.jpg)  
 + Start your application.  
   
-1.3 Verify and Upload the example sketch with Arduino IDE
+1.3 Verify and Upload the example sketch with Arduino IDE  
++ Open the example sketch from File > Sketchbook > generated_examples.  
++ Click **Verify** button to verify the example sketch.  
+![Alt text](./img/Verify_Sketch.jpg)  
+
++ Click **Upload** button to upload the example sketch.  
+![Alt text](./img/Upload_Sketch.jpg)  
++ Wait for the sketch upload completed. 
+
+2.Setup Ready LED
+===
+
+3.Setup Ethernet LAN
+===
+
+4.Setup WIFI
+===
+
+5.Setup SD Card
+===
+
+6.Setup RS232
+===
+
+7.Setup RS485
+===
+
+8.Setup Digital Input / Digital Output
+===
+
+9.To store file in flash memory with SPIFFS
+===
 
 
 
