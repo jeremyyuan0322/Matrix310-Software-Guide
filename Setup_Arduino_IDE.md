@@ -32,7 +32,12 @@ Arduino IDE can be downloaded from https://www.arduino.cc/en/software
 
 + Click **Upload** button to upload the example sketch.  
 ![Alt text](./img/Upload_Sketch.jpg)  
-+ Wait for the sketch upload completed. 
++ Wait for the sketch upload completed.  
+  
+1.4 Open the Serial Monitor  
+  
++ You can use the Arduino environment’s built-in serial monitor to communicate with Matrix310. Click the serial monitor button in the toolbar and select the same baud rate used in the call to ```begin()```.  
+![Alt text](./img/Serial_Monitor.jpg)  
 
 2.Setup Ready LED
 ===
