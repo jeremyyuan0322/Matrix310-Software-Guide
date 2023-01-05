@@ -44,18 +44,22 @@ Arduino IDE can be downloaded from https://www.arduino.cc/en/software
 
 3.Setup Ethernet LAN
 ===
+dhcp static ip
 
 4.Setup WIFI
 ===
+ap/client  
 
 5.Setup SD Card
 ===
 
 6.Setup RS232
 ===
+S1ToS, null modem
 
 7.Setup RS485
 ===
+模擬StoS2丟接  
 
 8.Setup Digital Input / Digital Output
 ===
